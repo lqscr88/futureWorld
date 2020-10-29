@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lqscr88.mapper.CoordinateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.lqscr88.domain.Coordinate">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="grade" property="grade" />
+        <result column="one_coordinate" property="oneCoordinate" />
+        <result column="two_coordinate" property="twoCoordinate" />
+        <result column="three_coordinate" property="threeCoordinate" />
+        <result column="four_coordinate" property="fourCoordinate" />
+        <result column="center_coordinate" property="centerCoordinate" />
+        <result column="area" property="area" />
+        <result column="parent_id" property="parentId" />
+        <result column="type" property="type" />
+        <result column="architecture" property="architecture" />
+        <result column="rule" property="rule" />
+    </resultMap>
+
+</mapper>

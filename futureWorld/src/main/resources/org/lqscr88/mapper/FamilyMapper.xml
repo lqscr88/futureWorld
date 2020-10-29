@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lqscr88.mapper.FamilyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.lqscr88.domain.Family">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="blood_lineage" property="bloodLineage" />
+        <result column="Total" property="Total" />
+        <result column="architecture" property="architecture" />
+        <result column="sect" property="sect" />
+    </resultMap>
+
+</mapper>

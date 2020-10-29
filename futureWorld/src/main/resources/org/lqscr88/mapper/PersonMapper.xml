@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lqscr88.mapper.PersonMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.lqscr88.domain.Person">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="grade" property="grade" />
+        <result column="blood_lineage" property="bloodLineage" />
+        <result column="attribute" property="attribute" />
+        <result column="skills" property="skills" />
+        <result column="arms" property="arms" />
+        <result column="treasure" property="treasure" />
+        <result column="mount" property="mount" />
+        <result column="family" property="family" />
+        <result column="master_worker" property="masterWorker" />
+        <result column="coordinate" property="coordinate" />
+        <result column="spouse" property="spouse" />
+        <result column="father" property="father" />
+        <result column="mom" property="mom" />
+        <result column="air_transport" property="airTransport" />
+        <result column="occupation" property="occupation" />
+        <result column="upgrade_energy" property="upgradeEnergy" />
+        <result column="partner" property="partner" />
+        <result column="friend" property="friend" />
+        <result column="sworn_brother" property="swornBrother" />
+        <result column="sect" property="sect" />
+        <result column="height" property="height" />
+        <result column="hand_length" property="handLength" />
+        <result column="leg_length" property="legLength" />
+    </resultMap>
+
+</mapper>

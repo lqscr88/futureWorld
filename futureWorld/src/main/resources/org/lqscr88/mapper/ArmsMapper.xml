@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lqscr88.mapper.ArmsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.lqscr88.domain.Arms">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="grade" property="grade" />
+        <result column="attribute" property="attribute" />
+        <result column="upgrade_materials" property="upgradeMaterials" />
+        <result column="type" property="type" />
+        <result column="coordinate" property="coordinate" />
+        <result column="building_people" property="buildingPeople" />
+        <result column="classification" property="classification" />
+        <result column="width" property="width" />
+    </resultMap>
+
+</mapper>
